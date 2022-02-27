@@ -1,0 +1,35 @@
+footer {
+    background-color: #1d2d44;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+footer h1 {
+    padding: 40px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins';
+    margin: 10px 20px;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.footer-content p {
+    font-family: 'Poppins';
+    margin-top: 25px;
+    text-align: center;
+}

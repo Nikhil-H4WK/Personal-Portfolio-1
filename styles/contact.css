@@ -1,0 +1,111 @@
+#contact {
+    padding: 8rem 0rem;
+    transition: all 0.3s ease-in-out;
+}
+#contact-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    justify-content: space-around;
+}
+
+#shortcuts {
+    width: 25rem;
+}
+
+
+.shortcut-heading {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.shortcut {
+    padding: 15px 0px;
+    background-color: #1d2d44;
+    border-radius: 10px;
+    height: 11rem;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.shortcut a {
+    padding-top: 10px;
+}
+
+.shortcut:hover {
+    transform: scale(1.05);
+}
+
+.shortcut svg {
+    width: 100%;
+}
+
+.shortcut a {
+    color: #ffffff69;
+}
+
+.text {
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#name, #mail, #msg {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    font-size: 17px;
+    height: 65px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    outline: none;
+}
+
+#names, #mails, #messages {
+    margin-left: 15px;
+}
+
+#contact-form {
+    width: 35%;
+}
+
+#contact-form form fieldset {
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.form-heading {
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#msg {
+    height: 10rem;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+form button {
+    width: 10rem;
+    font-size: 19px;
+    background-color: #1d2d44;
+    border: transparent;
+    border-radius: 10px;
+    margin-top: 25px;
+    height: 3rem;
+    color: white;
+    font-family: 'Poppins';
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+form button:hover {
+    transform: scale(1.05);
+}
+   

@@ -1,0 +1,33 @@
+#aboutme {
+    padding-top: 8rem;
+}
+
+.heading{
+    text-align: center;
+    font-size: 60px;
+}
+
+.sub-heading{
+    text-align: center;
+    font-size: 20px;
+}
+
+.details {
+    display: flex;
+}
+
+.aboutme-blob {
+    width: 40rem;
+    margin-top: 5rem;
+}
+
+.aboutme-info {
+    height: 20rem;
+    margin: 14rem;
+    width: 30rem;
+}
+
+.info_details{
+    text-align: justify;
+    font-size: 19px;
+}

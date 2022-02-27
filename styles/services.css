@@ -1,0 +1,47 @@
+#services {
+    margin: 30px 0px;
+    padding-top: 10rem;
+}
+
+.services-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: #1D2D44;
+    height: 25rem;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0px 5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.services-container:hover {
+    transform: scale(1.1);
+}
+
+.service-icon {
+    margin: 0px auto;
+}
+
+.services-heading {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.services-details {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.services-link {
+    margin: 40px auto;
+}

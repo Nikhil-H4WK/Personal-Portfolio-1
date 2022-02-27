@@ -1,0 +1,97 @@
+main {
+    width: 78%;
+    margin: 0px auto;
+    font-family: 'Poppins', cursive;
+}
+
+hr {
+    width: 12rem;
+    margin: 0px auto;
+}
+
+.container{
+    font-family: 'Arima Madurai', cursive;
+    display: flex;
+    padding-top: 10rem;
+}
+
+.connections-container {
+    width: fit-content;
+    margin-top: 16rem;
+    margin-right: 2rem;
+}
+
+.connections-container ul {
+    list-style: none;
+}
+
+.connections-container ul li {
+    margin: 12px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.connections-container ul li:hover {
+    transform: scale(1.3);
+}
+
+.info {
+    padding: 25px 25px 20px 2rem;
+}
+
+.info h1 {
+    font-size: 95px;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+
+.info button{
+    width: 10rem;
+    height: 5rem;
+    font-size: 18px;
+    background-color: #1D2D44;
+    color: white;
+    border: transparent;
+    border-radius: 17px;
+    cursor: pointer;
+    margin-top: 95px;
+    transition: all 0.3s ease-in-out;
+}
+
+.info button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.info button:hover {
+    transform: scale(1.1);
+    background-color: #003652;
+}
+
+.info button:active {
+    transform: translateY(4px);
+}
+
+.blob {
+    width: 33rem;
+    height: 30rem;
+    margin-left: 10rem;
+}
+
+/* .blob img {
+    right: 21rem;
+    width: 16rem;
+    position: absolute;
+    top: 15rem;
+} */
+
+.gif {
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.gif img {
+    width: 60px;
+}
