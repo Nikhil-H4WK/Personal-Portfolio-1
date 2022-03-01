@@ -8,10 +8,8 @@
 }
 
 .project-image {
-    width: 28rem;
-    position: relative;
-    bottom: 26rem;
-    left: 6rem;
+    width: 28%;
+    height: 30%;
 }
 
 .project-image img {
@@ -22,11 +20,12 @@
     padding-top: 5rem;
     display: flex;
     height: 47rem;
+    align-items: center;
 }
 
 .project-details {
     padding-left: 10rem;
-    padding-top: 9rem;   
+    height: 50%;  
 }
 
 .project-details button {
