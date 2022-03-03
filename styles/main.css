@@ -95,3 +95,48 @@ hr {
 .gif img {
     width: 60px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+    .info h1 {
+        font-size: 60px;
+    }   
+    
+    .info p {
+        font-size: 15px;
+    }
+
+    .blob {
+        width: 25rem;
+        height: 23rem;
+        padding-left: 0;
+    }
+
+    .connections-container {
+        margin-top: 8rem;
+    }
+
+    .info button {
+        width: 9rem;
+        height: 4rem;
+        font-size: 15px; 
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        padding-top: 2rem;
+        flex-direction: column-reverse;
+    }   
+    
+    .info {
+        width: inherit;
+        text-align: center;
+    }
+
+    .connections-container {
+        display: none;
+    }
+}

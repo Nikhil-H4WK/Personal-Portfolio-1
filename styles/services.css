@@ -45,3 +45,41 @@
 .services-link {
     margin: 40px auto;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+    .service-icon svg {
+        width: 3.5rem;
+    }    
+
+    .services-heading {
+        font-size: 25px;
+        padding-top: 5px;
+    }
+
+    .services-details {
+        font-size: 15px;
+    }
+
+    .services-link {
+        margin: 30px auto;
+    }
+
+    .services-container {
+        padding: 5px;
+        margin: 0px 3rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .services-div {
+        flex-direction: column;
+        margin-top: 8rem;
+    }
+
+    .services-container {
+        height: 20rem;
+        margin: 2rem auto;
+    }
+}

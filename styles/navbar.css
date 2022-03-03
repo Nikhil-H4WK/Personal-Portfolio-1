@@ -21,17 +21,21 @@ body nav ul {
     font-size: 20px;
 }
 
+.nav_icon {
+    display: none;
+}
+
 #nav-links {
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease-in-out;
 }
 
-#nav-links  li{
+.nav_name{
     margin: 0 15px;
     border-radius: 15px;
 }
 
-#nav-links li a {
+.nav_name a {
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -42,4 +46,34 @@ body nav ul {
 #nav-links li:hover {
     transform: scale(1.1);
     background-color: #3E5C76;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 900px) {   
+    .nav_name {
+        display: none;
+    }
+
+    .nav_icon {
+        display: flex;
+        margin: 0px 1rem;
+    }
+
+    nav {
+        position: fixed;
+        bottom: 15px;
+        top: auto;
+        width: 40%;
+        height: 4rem;
+        background-color: red;
+        border-radius: 60px;
+        margin: 0px 17rem;
+    }
+
+    #heading {
+        display: none;
+    }
+    
 }

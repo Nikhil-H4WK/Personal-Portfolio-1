@@ -14,20 +14,59 @@
 
 .details {
     display: flex;
+    align-items: center;
+    margin-top: 7rem;
 }
 
 .aboutme-blob {
     width: 40rem;
-    margin-top: 5rem;
 }
 
 .aboutme-info {
     height: 20rem;
-    margin: 14rem;
-    width: 30rem;
+    margin: 8rem;
+    width: 42rem;
 }
 
 .info_details{
     text-align: justify;
     font-size: 19px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px){
+    .info_details {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .aboutme-info {
+        margin-top: 30px;
+        width: 43rem;
+        height: auto;
+        padding-left: 2rem;
+    }
+    .aboutme-blob {
+        width: 22rem;
+    }
+
+    .details {
+        margin-top: 5rem;
+        flex-direction: column;
+    }
+
+    .info_details {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 50px;
+    }    
+
+    .sub-heading {
+        font-size: 18px;
+    }
 }

@@ -4,7 +4,7 @@
 }
 #contact-container {
     display: flex;
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
     padding-top: 5rem;
     justify-content: space-around;
@@ -107,5 +107,38 @@ form button {
 
 form button:hover {
     transform: scale(1.05);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+    .shortcut {
+        width: 20rem;
+        margin: 20px auto;
+    }  
+    
+    .shortcut-heading {
+        padding-bottom:  0px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #shortcuts {
+        width: auto;
+    }
+
+    .shortcut {
+        width: 16rem;
+        height: 10rem;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .form button {
+        margin: 0px 2.5rem;
+    }
+    
 }
    
