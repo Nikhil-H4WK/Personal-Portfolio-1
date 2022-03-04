@@ -43,7 +43,7 @@ body nav ul {
     font-weight: 900;
 }
 
-#nav-links li:hover {
+.nav_name:hover {
     transform: scale(1.1);
     background-color: #3E5C76;
 }
@@ -61,19 +61,35 @@ body nav ul {
         margin: 0px 1rem;
     }
 
+    .nav_icon a {
+        transition: all 0.3s ease-in-out;
+    }
+
     nav {
         position: fixed;
         bottom: 15px;
         top: auto;
-        width: 40%;
+        width: 100%;
         height: 4rem;
-        background-color: red;
         border-radius: 60px;
-        margin: 0px 17rem;
+    }
+
+    #nav-links {
+        background-color: #1D2D44;
+        width: 50%;
+        border-radius: 25px;
+        height: 3rem;
+        align-items: center;
+        padding-top: 5px;
+        justify-content: center;
     }
 
     #heading {
         display: none;
+    }
+
+    .nav_icon a:hover {
+        transform: scale(1.1);
     }
     
 }

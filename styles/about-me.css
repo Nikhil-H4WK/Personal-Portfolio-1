@@ -44,7 +44,7 @@
 @media screen and (max-width: 900px) {
     .aboutme-info {
         margin-top: 30px;
-        width: 43rem;
+        width: 95%;
         height: auto;
         padding-left: 2rem;
     }
@@ -60,6 +60,7 @@
     .info_details {
         font-size: 17px;
         text-align: center;
+        margin: 0px auto;
     }
 
     .heading {
@@ -68,5 +69,24 @@
 
     .sub-heading {
         font-size: 18px;
+    }
+
+    #aboutme {
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aboutme-info {
+        margin: 0 0 5rem 0;
+    }
+
+    .info_details {
+        font-size: 15px;
+    }
+
+    .aboutme-blob {
+        width: 55vw;
+        margin: 0px auto;
     }
 }

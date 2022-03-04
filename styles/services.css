@@ -82,4 +82,12 @@
         height: 20rem;
         margin: 2rem auto;
     }
+
+    #services {
+        padding-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
 }

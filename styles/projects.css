@@ -116,4 +116,35 @@
         margin-top: 5rem;
         margin-left: 0;
     }
+
+    #projects {
+        padding-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project-image {
+        width: 21rem;
+        height: 12rem;
+    }
+
+    .project-title {
+        font-size: 21px;
+    }
+
+    .project-description {
+        font-size: 11px;
+        margin: 0;
+    }
+
+    .project-details {
+        width: 27rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-details button {
+        margin: 2rem 12rem;
+    }
 }
