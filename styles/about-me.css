@@ -79,6 +79,7 @@
 @media screen and (max-width: 600px) {
     .aboutme-info {
         margin: 0 0 5rem 0;
+        padding: 0;
     }
 
     .info_details {
@@ -88,5 +89,13 @@
     .aboutme-blob {
         width: 55vw;
         margin: 0px auto;
+    }
+
+    .heading {
+        font-size: 35px;
+    }
+
+    .sub-heading {
+        font-size: 15px;
     }
 }

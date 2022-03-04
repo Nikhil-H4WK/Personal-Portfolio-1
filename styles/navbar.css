@@ -93,3 +93,22 @@ body nav ul {
     }
     
 }
+
+@media screen and (max-width: 600px) {
+    #nav-links {
+        width: 80%;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button button {
+        margin: 0px auto;
+    }
+
+    .nav_icon {
+        margin: 0px 0.6rem;
+    }
+}

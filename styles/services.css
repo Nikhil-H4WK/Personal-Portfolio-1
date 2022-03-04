@@ -89,5 +89,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    
+    .services-container {
+        width: 17rem;
+    }
 }

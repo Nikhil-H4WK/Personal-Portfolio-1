@@ -163,4 +163,13 @@ hr {
     .gif {
         margin: 25px auto;
     }
+
+    hr {
+        width: 9rem;
+    }
+
+    .blob {
+        width: 20rem;
+        padding-right: 30px;
+    }
 }

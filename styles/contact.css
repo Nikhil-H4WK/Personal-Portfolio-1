@@ -149,6 +149,21 @@ form button:hover {
 }
 
 @media screen and (max-width: 600px) {
-    
+    #contact-container {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #contact-form {
+        width: 80%;
+        margin: 5rem auto;
+    }
+
+    form button {
+        width: 8rem;
+        font-size: 15px;
+    }
+
+
 }
    
