@@ -20,15 +20,19 @@
 }
 
 .project-container {
-    padding-top: 5rem;
+    padding-top: 3rem;
     display: flex;
     height: 47rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .project-details {
     height: 50%;  
+}
+
+#hercules {
+    height: 38%;
 }
 
 .project-details button {

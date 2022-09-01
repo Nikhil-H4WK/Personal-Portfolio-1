@@ -1,5 +1,5 @@
 main {
-    width: 78%;
+    width: 97%;
     margin: 0px auto;
     font-family: 'Poppins', cursive;
 }
@@ -35,7 +35,7 @@ hr {
 }
 
 .info {
-    padding: 25px 25px 20px 2rem;
+    padding: 25px 25px 20px 15rem;
 }
 
 .info h1 {
@@ -85,6 +85,13 @@ hr {
     position: absolute;
     top: 15rem;
 } */
+
+#mypic {
+    position: absolute;
+    height: 24rem;
+    margin-top: 20px;
+    right: 21rem;
+}
 
 .gif {
     margin: 70px auto;

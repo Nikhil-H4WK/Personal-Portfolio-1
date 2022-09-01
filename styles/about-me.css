@@ -1,5 +1,5 @@
 #aboutme {
-    padding-top: 8rem;
+    padding-top: 5rem;
 }
 
 .heading{
@@ -15,11 +15,12 @@
 .details {
     display: flex;
     align-items: center;
-    margin-top: 7rem;
+    margin-top: 4rem;
 }
 
 .aboutme-blob {
     width: 40rem;
+    margin-left: 10rem;
 }
 
 .aboutme-info {
